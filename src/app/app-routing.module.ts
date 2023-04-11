@@ -5,17 +5,18 @@ import { BienvenidoComponent } from './components/bienvenido/bienvenido.componen
 import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
 
+/*
 const appMisRutas:Routes= [
   {path:'bienvenido',component: BienvenidoComponent},//http://localhost:4200/bienvenido
   {path:'login',component: LoginComponent}, //http://localhost:4200/login
   {path:'**',component: ErrorComponent} //http://localhost:4200/ Cualquier ruta que no haya matcheado con las anteriores.
 ];
-
+*/
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(appMisRutas),
+   // RouterModule.forRoot(appMisRutas),
   ]
 })
 export class AppRoutingModule { }

@@ -1,0 +1,18 @@
+<label >Edad 1
+  <input type="number" [(ngModel)]="edadUno">
+</label>
+<br>
+<label>Edad 2
+  <input type="number" [(ngModel)]="edadDos">
+</label>
+<br>
+<button (click)="Calcular()">Calcular</button>
+<button (click)="Limpiar()">Limpiar</button>
+<br>
+<label>
+  Promedio: {{promedioEdades}}
+</label>
+<br>
+<label>
+  Suma edades: {{sumaEdades}}
+</label>
